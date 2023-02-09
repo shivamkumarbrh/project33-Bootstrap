@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    position: fixed !important;
+    top: 0px;
+    z-index: 3;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar a:hover {
+    color: black;
+    background-color: #aaa;
+}
+
+.introImg {
+    background: url('https://cdn.pixabay.com/photo/2020/01/20/20/58/building-4781384_960_720.jpg') no-repeat center;
+    max-width: 100%;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.introImg p {
+    font-size: 40px;
+    color: white;
+}
+
+.introImg p b {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+}
+
+.imgContainer {
+    position: relative;
+    top: 0px;
+}
+
+.imgContent {
+    position: absolute;
+    top: 0px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+.card .post {
+    color: gray;
+}
+
+.card #cardBtn {
+    width: 100%;
+    background-color: #aaa;
+    transition: 0.2s;
+}
+
+.card .btn:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.card #cardBtn:hover {
+    background-color: #ddd !important;
+}
+
+.formInput {
+    border-radius: 0px !important;
+    border: 1px solid gray !important;
+    outline: 1px solid gray;
+}
+
+.formInput:focus {
+    box-shadow: none !important;
+    border: 1px solid black !important;
+    outline: 1px solid black !important;
+}
+
+#formBtn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#formBtn:hover {
+    background-color: #ddd !important;
+    color: black !important;
+}
+
+#addressImg {
+    width: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+}

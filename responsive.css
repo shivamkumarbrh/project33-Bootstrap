@@ -1,0 +1,45 @@
+@media screen and (max-width:992px) {
+    .introImg {
+        height: 75vh;
+    }
+    .imgContainer {
+        width: 49.5% !important;
+        margin: 0px auto 15px auto !important;
+    }
+
+    .employInfo {
+        width: 49.5% !important;
+        margin: 0px auto !important;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    #navRight {
+        display: none;
+    }
+
+    #firstNavItemContent {
+        display: none !important;
+    }
+
+    .introImg {
+        height: 50vh;
+    }
+
+    .imgContainer {
+        width: 98% !important;
+        margin: 0px auto 15px auto !important;
+
+    }
+
+    .imgContainer:last-child {
+        margin-bottom: 0px;
+    }
+
+    .employInfo {
+        width: 98% !important;
+        margin: 0px auto !important;
+    }
+
+}
